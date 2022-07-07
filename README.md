@@ -1,5 +1,4 @@
 # qzydustin.github.io
-
 I am Zhenyu Qi, a Computer Science master student.
 
 This is my personal blog powered by github page server, Jekyll blog generator and Minima theme.
