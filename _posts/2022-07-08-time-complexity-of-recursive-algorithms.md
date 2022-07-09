@@ -5,7 +5,7 @@ date:   2022-07-08 22:19:45 -0700
 categories: algorithm
 ---
 
-Let us to use a easy example question to explain the time complexity of rescusive algorithms.
+Let us to use an easy example question to explain the time complexity of rescusive algorithms.
 
 - Question: Calculate the nth power of x.
 
