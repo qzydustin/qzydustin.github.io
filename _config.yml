@@ -28,9 +28,11 @@ twitter_username: qzydustin
 github_username:  qzydustin
 
 # Build settings
-theme: minima
+# theme: minima
+remote_theme: jekyll/minima
 plugins:
   - jekyll-feed
+  - jekyll-remote-theme
 
 # Exclude from processing.
 # The following items will not be processed, by default.
@@ -53,3 +55,4 @@ plugins:
 #   - vendor/ruby/
 
 permalink: pretty
+google_analytics: G-H2KWSPCSYD
