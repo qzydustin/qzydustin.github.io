@@ -85,7 +85,8 @@ This time I used trojan-gfw. It works by disguising all traffic as https traffic
   ```shell
   systemctl enable trojan
   systemctl start trojan
+  systemctl status trojan
   ```
-
+  
   Then, I can use Shadowrocket app to connect to the Trojan server.
 
