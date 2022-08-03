@@ -19,7 +19,7 @@ It bypasses ISPs' network censorship by encrypting all traffic.
 
 - Config Shadowsocks
 
-  The default config is located at /etc/shadowsocks-libev/config.
+  The default config is located at /etc/shadowsocks-libev/config.json
 
   Here is an example config.
 
@@ -29,7 +29,7 @@ It bypasses ISPs' network censorship by encrypting all traffic.
   {
       "server":["::0", "0.0.0.0"],
       "mode":"tcp_and_udp",
-      "server_port":8388 ,
+      "server_port":8388,
       "local_port":1080,
       "password":"random-password",
       "timeout":86400,
@@ -41,7 +41,7 @@ It bypasses ISPs' network censorship by encrypting all traffic.
 
   ```shell
   systemctl enable shadowsocks-libev
-  systemctl start shadowsocks-libev
+  systemctl restart shadowsocks-libev
   systemctl status shadowsocks-libev
   ```
 
