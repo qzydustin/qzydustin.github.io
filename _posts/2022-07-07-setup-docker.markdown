@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  Setup docker
-date:   2022-07-07 20:36:36 -0700
+title: Setup docker
+date: 2022-07-07 20:36:36 -0700
 categories: technology
 ---
 

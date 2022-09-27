@@ -1,14 +1,12 @@
 ---
 layout: post
-title:  Obtain free certificates
-date:   2022-07-18 17:12:32-0700
+title: Obtain free certificates
+date: 2022-07-18 17:12:32-0700
 categories: technology
 ---
 
 This article will introduce how to get free certificates.
-
 The certificates can help you build https website or setup trojan proxy.
-
 I use the acme.sh tool to get certificates easily.
 
 - Install acme.sh and set auto upgrade
@@ -32,5 +30,3 @@ I use the acme.sh tool to get certificates easily.
   acme.sh --installcert -d domain.com --ecc --fullchain-file /location/certfile.pem --key-file /location/keyfile.key
   chmod +r /location/keyfile.key
   ```
-
-  

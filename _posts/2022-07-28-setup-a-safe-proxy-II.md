@@ -1,15 +1,12 @@
 ---
 layout: post
-title:  Setup a safe proxy II
-date:   2022-07-28 14:45:05 -0700
+title: Setup a safe proxy II
+date: 2022-07-28 14:45:05 -0700
 categories: technology
 ---
 
 Last time, I introduced Trojan-gfw. this time, we use another proxy tool, Shadowsocks-libev.
-
 It bypasses ISPs' network censorship by encrypting all traffic.
-
-
 
 - Install Shadowsocks
 
@@ -20,9 +17,7 @@ It bypasses ISPs' network censorship by encrypting all traffic.
 - Config Shadowsocks
 
   The default config is located at /etc/shadowsocks-libev/config.json
-
   Here is an example config.
-
   A random password and port number is required.
 
   ```config
@@ -45,11 +40,8 @@ It bypasses ISPs' network censorship by encrypting all traffic.
   systemctl status shadowsocks-libev
   ```
 
-  Then, I can use [Outline](https://getoutline.org/) app to connect to the Shadowsocks server. 
-
-  
-
-  If there is some error like below, 
+  Then, I can use [Outline](https://getoutline.org/) app to connect to the Shadowsocks server.
+  If there is some error like below,
 
   ```log
   This system doesn't provide enough entropy to quickly generate high-quality random numbers
@@ -65,5 +57,3 @@ It bypasses ISPs' network censorship by encrypting all traffic.
   rngd -r /dev/urandom
   systemctl restart shadowsocks-libev
   ```
-
-  

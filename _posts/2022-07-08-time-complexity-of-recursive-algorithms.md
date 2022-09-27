@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  Time complexity of recursive algorithms
-date:   2022-07-08 22:19:45 -0700
+title: Time complexity of recursive algorithms
+date: 2022-07-08 22:19:45 -0700
 categories: algorithm
 ---
 
@@ -40,10 +40,8 @@ Let us to use an easy example question to explain the time complexity of rescusi
   }
   ```
 
-  The time complexity of the recursive algorithm =  the number of recursions * the number of operations per recursion
-
+  The time complexity of the recursive algorithm = the number of recursions \* the number of operations per recursion
   In this case, the number of recusions = n; The number of operations per recursion = 1.
-
   So the time complexity is still O(n).
 
 - Solution 3:
@@ -60,10 +58,8 @@ Let us to use an easy example question to explain the time complexity of rescusi
   }
   ```
 
-  In this case, the number of recusions = logn * logn; The number of operations per recursion = 1.
-
+  In this case, the number of recusions = logn \* logn; The number of operations per recursion = 1.
   So the time complexity is still O(n).
-
   However, we have the double counting part.
 
 - Solution 4：
@@ -83,8 +79,6 @@ Let us to use an easy example question to explain the time complexity of rescusi
   ```
 
   In this case, the number of recusions = logn; The number of operations per recursion = 1.
-
   Therefore, the time complexity is O(logn).
 
 In conclusion, this is an entry level algorithm question, but a little difference in the recursive part of the algorithm will impact the time complexity a lot. In addition, the time complexity of the recursive algorithm is not always O(logn).
-

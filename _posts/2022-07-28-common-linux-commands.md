@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  Common Linux commands
-date:   2022-07-28 15:02:35 -0700
+title: Common Linux commands
+date: 2022-07-28 15:02:35 -0700
 categories: technology
 ---
 
@@ -51,7 +51,7 @@ echo '/var/swap   swap   swap   default 0 0' >> /etc/fstab
 Auto run commands at system start-up.
 
 - Edit or new /etc/rc.local
-  
+
   ```apacheconf
   #!/bin/sh -e
   #
@@ -65,13 +65,13 @@ Auto run commands at system start-up.
   # bits.
   #
   # By default this script does nothing.
-  
+
   exit 0
   EOF
   ```
 
 - Apply the changes
-  
+
   ```shell
   chmod +x /etc/rc.local
   systemctl daemon-reload
@@ -82,7 +82,7 @@ Auto run commands at system start-up.
 ## Network Optimization
 
 - Edit /etc/sysctl.conf
-  
+
   ```apacheconf
   fs.file-max = 1000000
   fs.inotify.max_user_instances = 8192
@@ -121,10 +121,9 @@ Auto run commands at system start-up.
   net.core.default_qdisc=fq
   net.ipv4.tcp_congestion_control=bbr
   ```
-  
+
 - Apply the change
-  
+
   ```shell
   sysctl --system
   ```
-
