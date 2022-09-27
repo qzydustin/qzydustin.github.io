@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Setup a safe proxy II
+title: Setup a safe proxy Shadowsocks
 date: 2022-07-28 14:45:05 -0700
 categories: technology
 ---

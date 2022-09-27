@@ -1,6 +1,6 @@
 ---
 layout: post
-title: A powerful VPN ZeroTier
+title: Setup a powerful VPN ZeroTier
 date: 2022-09-26 15:28:32 -0700
 categories: technology
 ---

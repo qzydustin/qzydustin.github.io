@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Setup a safe proxy
+title: Setup a safe proxy Trojan
 date: 2022-07-18 16:58:55 -0700
 categories: technology
 ---
