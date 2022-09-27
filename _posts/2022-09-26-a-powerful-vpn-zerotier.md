@@ -4,11 +4,15 @@ title:  A powerful VPN ZeroTier
 date:   2022-09-26 15:28:32 -0700
 categories: technology
 ---
+
 ZeroTier creates secure networks between on-premise, cloud, desktop, and mobile devices. Team members can be connected from anywhere in the world on any device. 
+
 - Install
   The easiest way is to follow the instructions on the official  [website](https://www.zerotier.com/download/). 
+  
 - Access the device via its ZeroTier
   After installing the software and joining the network, the device will get a ZeroTier IP. It means that all devices joined the same ZeroTier network are in the same virtual LAN. Another devices in the same ZeroTier network can access this device via its ZeroTier IP. I usually use this to play Warcraft III with friends. By the way, if the warcraft III version is below 1.29, [WC3proxy](https://github.com/FooleAU/wc3proxy) is needed.
+  
 - Access the network via one device installed ZeroTier
   If you need to access the another network(even global network) through one device(such as raspberry pi or nas) in that network. These is also a list of things you should to do.
   
