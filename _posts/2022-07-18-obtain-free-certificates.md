@@ -5,9 +5,7 @@ date: 2022-07-18 17:12:32-0700
 categories: technology
 ---
 
-This article will introduce how to get free certificates.
-The certificates can help you build https website or setup trojan proxy.
-I use the acme.sh tool to get certificates easily.
+This article will introduce how to get free certificates. The certificates can help you build https website or setup trojan proxy. I use the acme.sh tool to get certificates easily.
 
 - Install acme.sh and set auto upgrade
 
