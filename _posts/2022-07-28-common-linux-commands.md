@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Common Linux commands
+title: Common Linux Commands
 date: 2022-07-28 15:02:35 -0700
 categories: technology
 ---

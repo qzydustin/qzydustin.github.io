@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Xiaomi router nano
+title: Xiaomi Router Nano Flash Bootloader
 date: 2022-09-28 14:43:27 -0700
 categories: technology
 ---

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Time complexity of recursive algorithms
+title: Time Complexity of Recursive Algorithms
 date: 2022-07-08 22:19:45 -0700
 categories: algorithm
 ---

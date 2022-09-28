@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Obtain free certificates
+title: Obtain Free Certificates
 date: 2022-07-18 17:12:32-0700
 categories: technology
 ---
