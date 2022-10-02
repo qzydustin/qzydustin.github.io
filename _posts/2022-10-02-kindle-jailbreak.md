@@ -82,6 +82,7 @@ The vulnerability exploited by the jailbreak method is fixed in firmware version
 - More
 
   [Snapshots of NiLuJe’s hacks](http://www.mobileread.com/forums/showthread.php?t=225030)
+  
   [A helpful list of Extensions for KUAL](http://www.mobileread.com/forums/showthread.php?t=205064)
 
 ## Update
@@ -91,7 +92,7 @@ The vulnerability exploited by the jailbreak method is fixed in firmware version
 
    ```shell
    #!/bin/sh
-
+   
    eips 0 0 'JailBreak'
    ```
 
