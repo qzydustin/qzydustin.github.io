@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Setup a Safe Proxy Shadowsocks
+title: Shadowsocks Proxy Setup Tutorial
 date: 2022-07-28 14:45:05 -0700
 categories: technology
 ---

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Setup Docker
+title: Docker Setup Tutorial
 date: 2022-07-07 20:36:36 -0700
 categories: technology
 ---

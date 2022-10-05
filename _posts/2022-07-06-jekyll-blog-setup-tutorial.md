@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Setup a Jekyll Blog
+title: Jekyll Blog Setup Tutorial
 date: 2022-07-06 16:29:28 -0700
 categories: technology
 ---

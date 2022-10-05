@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Setup a Safe Proxy Trojan
+title: Trojan Proxy Setup Tutorial
 date: 2022-07-18 16:58:55 -0700
 categories: technology
 ---

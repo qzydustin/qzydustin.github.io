@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Array
+title: Array Algorithm
 date: 2022-07-12 12:25:04 -0700
 categories: algorithm
 ---
