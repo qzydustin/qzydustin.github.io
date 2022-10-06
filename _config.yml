@@ -55,5 +55,5 @@ plugins:
 #   - vendor/gems/
 #   - vendor/ruby/
 
-permalink: pretty
+permalink: none
 google_analytics: G-H2KWSPCSYD
