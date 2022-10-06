@@ -34,7 +34,7 @@ plugins:
   - jekyll-feed
   - jekyll-remote-theme
   - jekyll-sitemap
-permalink: none
+permalink: /:categories/:title
 google_analytics: G-H2KWSPCSYD
 minima:
   skin: solarized
