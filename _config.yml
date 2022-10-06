@@ -57,3 +57,8 @@ plugins:
 
 permalink: none
 google_analytics: G-H2KWSPCSYD
+minima:
+  skin: solarized
+header_pages:
+  - category.html
+  - about.md
