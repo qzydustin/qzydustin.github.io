@@ -2,7 +2,7 @@
 layout: post
 title: Jekyll Blog Setup Tutorial
 date: 2022-07-06 16:29:28 -0700
-categories: technology
+category: Technology-Tutorial
 ---
 
 My environment is Macbook Air M1 with latest macOS.

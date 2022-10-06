@@ -2,7 +2,7 @@
 layout: post
 title: Padavan Router Firmware Build Tutorial
 date: 2022-10-05 10:03:05 -0700
-categories: technology
+category: Technology-Tutorial
 ---
 
 [Padavan](https://bitbucket.org/padavan/rt-n56u/src/master/) is great router firmware project for almost MTK chip router. It's open source, stable, extensible, and has a strong wireless signal. In official, this firmware only support several ASUS routers. However, after editing config file and board folder, most MTK chip(Ralink RT3883/MT7620/MT7621/MT7628) router can be supported.

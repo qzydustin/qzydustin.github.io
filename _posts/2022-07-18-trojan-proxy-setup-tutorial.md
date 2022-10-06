@@ -2,7 +2,7 @@
 layout: post
 title: Trojan Proxy Setup Tutorial
 date: 2022-07-18 16:58:55 -0700
-categories: technology
+category: Technology-Tutorial
 ---
 
 My goal is to build a proxy that bypasses network censorship.

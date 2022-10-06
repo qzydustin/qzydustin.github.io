@@ -2,7 +2,7 @@
 layout: post
 title: Free Certificates Obtain Tutorial
 date: 2022-07-18 17:12:32-0700
-categories: technology
+category: Technology-Tutorial
 ---
 
 This article will introduce how to get free certificates. The certificates can help you build https website or setup trojan proxy. I use the acme.sh tool to get certificates easily.

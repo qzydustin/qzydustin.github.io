@@ -2,7 +2,7 @@
 layout: post
 title: Array Algorithm
 date: 2022-07-12 12:25:04 -0700
-categories: algorithm
+category: Algorithm
 ---
 
 Arrays are very basic data structures. It has two characteristics:

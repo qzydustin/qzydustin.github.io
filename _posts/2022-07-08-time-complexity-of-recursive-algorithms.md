@@ -2,7 +2,7 @@
 layout: post
 title: Time Complexity of Recursive Algorithms
 date: 2022-07-08 22:19:45 -0700
-categories: algorithm
+category: Algorithm
 ---
 
 Let us to use an easy example question to explain the time complexity of rescusive algorithms.

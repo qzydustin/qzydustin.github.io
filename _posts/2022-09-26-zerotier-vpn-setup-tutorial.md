@@ -2,7 +2,7 @@
 layout: post
 title: ZeroTier VPN Setup Tutorial
 date: 2022-09-26 15:28:32 -0700
-categories: technology
+category: Technology-Tutorial
 ---
 
 ZeroTier creates secure networks between on-premise, cloud, desktop, and mobile devices. Team members can be connected from anywhere in the world on any device.

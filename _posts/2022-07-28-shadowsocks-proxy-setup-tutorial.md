@@ -2,7 +2,7 @@
 layout: post
 title: Shadowsocks Proxy Setup Tutorial
 date: 2022-07-28 14:45:05 -0700
-categories: technology
+category: Technology-Tutorial
 ---
 
 Last time, I introduced Trojan-gfw. this time, we use another proxy tool, Shadowsocks-libev.

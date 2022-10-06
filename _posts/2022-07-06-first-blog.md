@@ -2,7 +2,7 @@
 layout: post
 title: First Blog
 date: 2022-07-06 15:55:19 -0700
-categories: log
+category: Log
 ---
 
 > 业精于勤荒于嬉，行成于思毁于随。

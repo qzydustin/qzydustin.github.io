@@ -2,7 +2,7 @@
 layout: post
 title: Xiaomi Router Nano Bootloader Flash Tutorial
 date: 2022-09-28 14:43:27 -0700
-categories: technology
+category: Technology-Tutorial
 ---
 
 Xiaomi router nano is such a cute router with MTK 7628. This tutorial is about how to get root access and flash its bootloader.
