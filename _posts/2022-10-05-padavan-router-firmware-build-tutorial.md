@@ -14,7 +14,6 @@ This tutorial is about how to build MI-NANO router's Padavan firmware. MI NANO i
 
    ```shell
    apt install build-essential gawk pkg-config gettext automake autogen texinfo autoconf libtool bison flex zlib1g-dev libgmp3-dev libmpfr-dev libmpc-dev git sudo vim module-init-tools
-   
    git clone https://bitbucket.org/padavan/rt-n56u.git /opt/rt-n56u
    ```
 
