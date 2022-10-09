@@ -36,8 +36,11 @@ A cellphone plan is a necessity for every person living in a modern city. How to
 
 #### Tello
 
-- Plan: $5/100 mins/free SMS
-   $7/100 mins/free SMS/1G
+- Plan: 
+  - $5/100 mins/free SMS
+  - $7/100 mins/free SMS/1G
+  - etc
+
 - Worldwide: [rate](https://tello.com/free-international-countries)(China, Mexico, India and etc Free)
 - Network: T-Mobile
 - Wireless: Y
