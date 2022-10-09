@@ -36,7 +36,8 @@ A cellphone plan is a necessity for every person living in a modern city. How to
 
 #### Tello
 
-- Cheapest Plan: $5/100 mins/free SMS
+- Plan: $5/100 mins/free SMS
+   $7/100 mins/free SMS/1G
 - Worldwide: [rate](https://tello.com/free-international-countries)(China, Mexico, India and etc Free)
 - Network: T-Mobile
 - Wireless: Y
@@ -49,7 +50,7 @@ A cellphone plan is a necessity for every person living in a modern city. How to
 
 #### T-Mobile Connect
 
-- Fixed Cost: $10/1000 mins/1000 SMS/1G traffic
+- Fixed Cost: $10/1000 mins/1000 SMS/1G
 - Worldwide: [rate](https://www.t-mobile.com/coverage/international-calling)
 - Network: T-Mobile
 - Wireless: Y
