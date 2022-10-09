@@ -22,19 +22,19 @@ A cellphone plan is a necessity for every person living in a modern city. How to
 - [Network Priority Level](https://www.reddit.com/r/NoContract/comments/tn4733/qci_level_explained_2022_march_lower_qci_is_better/)
    Lower QCI is better.
   - Verizon
-    **QCI 7 ➤** Verizon Frontline
-    **QCI 8 ➤** Verizon 5G Get More(UNLTD), Verizon 5G Do More(50GB), Verizon 5G Play More(50GB), Xfinity Mobile By-The Gig(VARY BY PLANS), Xfinity Mobile Unlimited(Unlimited, But Reduced at 1.5Mbps after 22GB), US Mobile By-The-Gig(VARY BY PLANS), US Mobile Unlimited(UNLTD, But Reduced at 1Mbps after 75GB), Verizon Business Pro 2.0(UNLTD), Verizon Business Plus 2.0(100GB)
-    **QCI 9 ➤** Verizon Prepaid(All Plans), Verizon Business Starter, All After Deprioritized Plans, All MVNOs, Spectrum Mobile, Total Wireless, Visible, etc
+    - **QCI 7 ➤** Verizon Frontline
+    - **QCI 8 ➤** Verizon 5G Get More(UNLTD), Verizon 5G Do More(50GB), Verizon 5G Play More(50GB), Xfinity Mobile By-The Gig(VARY BY PLANS), Xfinity Mobile Unlimited(Unlimited, But Reduced at 1.5Mbps after 22GB), US Mobile By-The-Gig(VARY BY PLANS), US Mobile Unlimited(UNLTD, But Reduced at 1Mbps after 75GB), Verizon Business Pro 2.0(UNLTD), Verizon Business Plus 2.0(100GB)
+    - **QCI 9 ➤** Verizon Prepaid(All Plans), Verizon Business Starter, All After Deprioritized Plans, All MVNOs, Spectrum Mobile, Total Wireless, Visible, etc
   - AT&T
-    **QCI 6 ➤** FirstNET(UNLTD), AT&T Business Elite(UNLTD)
-    **QCI 7 ➤** AT&T Consumer Elite(UNLTD)
-    **QCI 8 ➤** AT&T Consumer Extra(50GB), AT&T Business Performance(50GB), AT&T Prepaid Unlimited Plus(22GB), AT&T Prepaid Unlimited MAX(22GB), Cricket Unlimited More(UNLTD), All MVNOs By-The-Gig Plans(VARY BY PLANS), AT&T Prepaid By-The-Gig Plans(VARY BY PLANS), Wing Alpha Old Plans(50GB)
-    **QCI 9 ➤** AT&T Consumer Starter, AT&T Business Starter, AT&T Prepaid Unlimited, All MVNOs Unlimited Plans, All After Deprioritized Plans, Wing Alpha New Plans(Was Business Reseller for old customers)
+    - **QCI 6 ➤** FirstNET(UNLTD), AT&T Business Elite(UNLTD)
+    - **QCI 7 ➤** AT&T Consumer Elite(UNLTD)
+    - **QCI 8 ➤** AT&T Consumer Extra(50GB), AT&T Business Performance(50GB), AT&T Prepaid Unlimited Plus(22GB), AT&T Prepaid Unlimited MAX(22GB), Cricket Unlimited More(UNLTD), All MVNOs By-The-Gig Plans(VARY BY PLANS), AT&T Prepaid By-The-Gig Plans(VARY BY PLANS), Wing Alpha Old Plans(50GB)
+    - **QCI 9 ➤** AT&T Consumer Starter, AT&T Business Starter, AT&T Prepaid Unlimited, All MVNOs Unlimited Plans, All After Deprioritized Plans, Wing Alpha New Plans(Was Business Reseller for old customers)
   - T-Mobile
-    **QCI 6 ➤** T-Mobile Magenta MAX(UNLTD), T-Mobile Magenta(100GB), T-Mobile Prepaid Unlimited Plus(50GB), T-Mobile Prepaid Unlimited(50GB), T-Mobile ONE(28GB), T-Mobile Prepaid By-The-Gig Plans(VARY BY PLANS), T-Mobile Connect(VARY BY PLANS), Google Fi(VARY BY PLANS, Usually 22GB)
-    **QCI 7 ➤** T-Mobile Essentials, Metro by T-Mobile, All MVNOs
-    **QCI 8 ➤** This Level is for Hotspot Users
-    **QCI 9 ➤** T-Mobile Home Internet
+    - **QCI 6 ➤** T-Mobile Magenta MAX(UNLTD), T-Mobile Magenta(100GB), T-Mobile Prepaid Unlimited Plus(50GB), T-Mobile Prepaid Unlimited(50GB), T-Mobile ONE(28GB), T-Mobile Prepaid By-The-Gig Plans(VARY BY PLANS), T-Mobile Connect(VARY BY PLANS), Google Fi(VARY BY PLANS, Usually 22GB)
+    - **QCI 7 ➤** T-Mobile Essentials, Metro by T-Mobile, All MVNOs
+    - **QCI 8 ➤** This Level is for Hotspot Users
+    - **QCI 9 ➤** T-Mobile Home Internet
 
 ### Plan List
 
