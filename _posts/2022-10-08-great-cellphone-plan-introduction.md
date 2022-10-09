@@ -52,8 +52,8 @@ A cellphone plan is a necessity for every person living in a modern city. How to
 - WiFi-Calling: Supported
 - Roam: Not supported
 - Special:
-  Can make calls by My Tello app(only make calls, not receive calls and not message).
-  Get $10 credit by [Invite link](https://tello.com/account/register?_referral=P3QGJ58G).
+  - Can make calls by My Tello app(only make calls, not receive calls and not message).
+  - Get $10 credit by [Invite link](https://tello.com/account/register?_referral=P3QGJ58G).
 
 #### T-Mobile Connect
 
@@ -79,8 +79,8 @@ A cellphone plan is a necessity for every person living in a modern city. How to
 - Roam: Supported, [rate](https://www.t-mobile.com/coverage/prepaid-international-roaming)
 - Caller ID: Supported
 - Special:
-  At least $1 is required to refill to keep the number and balance every 90 days.
-  This is an out-of-print plan. Can get from eBay about $150.
+  - At least $1 is required to refill to keep the number and balance every 90 days.
+  - This is an out-of-print plan. Can get from eBay about $150.
 
 #### T-Mobile Pay As You Go
 
@@ -94,7 +94,7 @@ A cellphone plan is a necessity for every person living in a modern city. How to
 - Roam: Supported, [rate](https://www.t-mobile.com/coverage/prepaid-international-roaming)
 - Caller ID: Supported
 - Special:
-  This is an out-of-print plan. Can get from eBay about $50.
+  - This is an out-of-print plan. Can get from eBay about $50.
 
 #### Google Voice
 
@@ -103,10 +103,10 @@ A cellphone plan is a necessity for every person living in a modern city. How to
 - Worldwide: [rate](https://voice.google.com/u/0/rates)
 - Wireless: N
 - Special:
-  No sim card, use by Google Voice app.
-  Google Voice has $3 port out fee.
-  The number will be recycled in three months without activities.
-  It is hard to register an account and get a number.
+  - No sim card, use by Google Voice app.
+  - Google Voice has $3 port out fee.
+  - The number will be recycled in three months without activities.
+  - It is hard to register an account and get a number.
 
 ## Philippines
 
@@ -118,5 +118,5 @@ A cellphone plan is a necessity for every person living in a modern city. How to
 - WiFi-Calling: Supported
 - Roam: Supported, [rate](https://www.globe.com.ph/international/roaming.html)(receive SMS free)
 - Special:
-  Refill to extend the number and balance one year.
-  Send a SMS to a random local number to activate (about ₱21 include VAT).
+  - Refill to extend the number and balance one year.
+  - Send a SMS to a random local number to activate (about ₱21 include VAT).
