@@ -6,7 +6,7 @@ category: Technology-Tutorial
 ---
 
 Last time, I introduced Trojan-gfw. this time, we use another proxy tool, Shadowsocks-libev.
-It bypasses ISPs' network censorship by encrypting all traffic.
+It bypasses ISPs' network censorship by encrypting all traffic. However, Shadowsocks-libev is not a good tool to bypass Chinaese network censorship. This will result in the server‘s IP being blocked in mainland China.
 
 - Install Shadowsocks
 
