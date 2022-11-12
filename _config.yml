@@ -39,10 +39,10 @@ google_analytics: G-H2KWSPCSYD
 minima:
   skin: solarized
   social_links:
-    twitter: qzydustin
-    github: qzydustin
-    linkedin: qzydustin
-    telegram: qzydustin
+    - { platform: github,   user_url: "https://github.com/qzydustin" }
+    - { platform: twitter,  user_url: "https://twitter.com/qzydustin" }
+    - { platform: linkedin, user_url: "https://www.linkedin.com/in/qzydustin/" }
+    - { platform: telegram, user_url: "https://t.me/qzydustin" }
 header_pages:
   - category.html
   - about.md
