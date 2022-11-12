@@ -7,9 +7,9 @@ category: Algorithm
 
 Let us to use an easy example question to explain the time complexity of rescusive algorithms.
 
-## Question: Calculate the nth power of x.
+## Question: Calculate the nth power of x
 
-## Solution 1:
+## Solution 1
 
 The most straightforward way to solve this is use a loop.
 
@@ -27,7 +27,7 @@ int function(int x, int n){
 
 At this time, the time complexity is O(n).
 
-## Solution 2:
+## Solution 2
 
 Usually, time complexity can be optimized using recursive algorithms.
 
@@ -41,10 +41,12 @@ int function(int x, int n){
 ```
 
 The time complexity of the recursive algorithm = the number of recursions \* the number of operations per recursion
+
 In this case, the number of recusions = n; The number of operations per recursion = 1.
+
 So the time complexity is still O(n).
 
-## Solution 3:
+## Solution 3
 
 ```java
 int function(int x, int n){
@@ -59,10 +61,12 @@ int function(int x, int n){
 ```
 
 In this case, the number of recusions = logn \* logn; The number of operations per recursion = 1.
+
 So the time complexity is still O(n).
+
 However, we have the double counting part.
 
-## Solution 4：
+## Solution 4
 
 ```java
 int function(int x, int n){
@@ -79,6 +83,7 @@ int function(int x, int n){
 ```
 
 In this case, the number of recusions = logn; The number of operations per recursion = 1.
+
 Therefore, the time complexity is O(logn).
 
 In conclusion, this is an entry level algorithm question, but a little difference in the recursive part of the algorithm will impact the time complexity a lot. In addition, the time complexity of the recursive algorithm is not always O(logn).
