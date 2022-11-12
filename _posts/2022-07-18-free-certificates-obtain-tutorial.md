@@ -14,6 +14,7 @@ This article will introduce how to get free certificates. The certificates can h
   . .bashrc
   acme.sh --upgrade --auto-upgrade
   ```
+
 - Issue a cert by Cloudflare DNS API mode
 
   - Create [Cloudflare API](https://dash.cloudflare.com/profile)
@@ -33,9 +34,9 @@ This article will introduce how to get free certificates. The certificates can h
 
     ```shell
     acme.sh --installcert -d domain.com --ecc \
-    	--fullchain-file /location/certfile.crt \
-    	--key-file /location/keyfile.key\
-    	--reloadcmd "systemctl restart example"
+     --fullchain-file /location/certfile.crt \
+     --key-file /location/keyfile.key\
+     --reloadcmd "systemctl restart example"
 
     chmod +r /location/keyfile.key
     ```
