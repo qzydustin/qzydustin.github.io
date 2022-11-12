@@ -16,7 +16,7 @@ The vulnerability exploited by the jailbreak method is fixed in firmware version
    Click Menu → Settings → Device Options →Reset.
 
 3. Set Kindle
-   Language choose English→**United Kingdom**.
+   Language choose English → **United Kingdom**.
    Ignore WiFi setting.
 
 4. Enter demo mode
