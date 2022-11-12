@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Nginx-Setup-Tutorial
+title: Nginx Setup Tutorial
 date: 2022-11-12 01:44:32-0700
 category: Technology-Tutorial
 ---
@@ -24,13 +24,13 @@ Nginx is a popular web server. It is widely used in Internet projects because of
 
   In the main nginx configuration, `/etc/nginx/nginx.conf`, there is a line `include /etc/nginx/sites-enabled/*.conf;`
   To activate virtualhosts in `/etc/nginx/sites-available`, run following command:
-  
+
   ```shell
   ln -s /etc/nginx/sites-available/example.conf /etc/nginx/sites-enabled/
   ```
-  
+
   - Basic static web config
-  
+
     ```nginx
     server {
     	listen 80;
@@ -38,9 +38,9 @@ Nginx is a popular web server. It is widely used in Internet projects because of
     	root staticHtmlFile;
     }
     ```
-  
+
   - Static web with SSL config
-  
+
     ```nginx
     server {
     	listen 443;
@@ -51,9 +51,9 @@ Nginx is a popular web server. It is widely used in Internet projects because of
       root staticHtmlFile;
     }
     ```
-  
+
   - Reverse proxy config
-  
+
     ```nginx
     server {
     	listen 80;
