@@ -33,9 +33,9 @@ Nginx is a popular web server. It is widely used in Internet projects because of
 
     ```nginx
     server {
-    	listen 80;
-    	server_name domain.com;
-    	root staticHtmlFile;
+      listen 80;
+      server_name domain.com;
+      root staticHtmlFile;
     }
     ```
 
@@ -43,11 +43,11 @@ Nginx is a popular web server. It is widely used in Internet projects because of
 
     ```nginx
     server {
-    	listen 443;
+      listen 443;
       server_name domain.com;
-    	ssl on;
-    	ssl_certificate /location/certfile.crt;
-    	ssl_certificate_key /location/keyfile.key;
+      ssl on;
+      ssl_certificate /location/certfile.crt;
+      ssl_certificate_key /location/keyfile.key;
       root staticHtmlFile;
     }
     ```
@@ -56,10 +56,10 @@ Nginx is a popular web server. It is widely used in Internet projects because of
 
     ```nginx
     server {
-    	listen 80;
-    	server_name domain.com;
+      listen 80;
+      server_name domain.com;
       location / {
-    		proxy_pass https://target.com:port;
-    	}
+        proxy_pass https://target.com:port;
+      }
     }
     ```
