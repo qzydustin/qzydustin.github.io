@@ -22,7 +22,7 @@ Nginx is a popular web server. It is widely used in Internet projects because of
 
 - Virtualhosts config
 
-  In the main nginx configuration, `/etc/nginx/nginx.conf`, there is a line `include /etc/nginx/sites-enabled/*.conf;`
+  In the main nginx configuration, `/etc/nginx/nginx.conf`, there is a line `include /etc/nginx/sites-enabled/*.conf;`  
   To activate virtualhosts in `/etc/nginx/sites-available`, run following command:
 
   ```shell

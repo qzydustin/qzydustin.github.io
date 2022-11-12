@@ -11,15 +11,15 @@ A cellphone plan is a necessity for every person living in a modern city. How to
 
 ### Introduction
 
-- Wireless Status
+- Wireless Status  
   Each phone number can be distinguished by wireless status. The mobile phone numbers are wireless Y, and the lindline numbers are wireless N. The wireless N numbers have lots of limits in registering account. Some companies like bank, google will not allow users to use wireless N numbers to registering accounts. Here is a check [website](https://freecarrierlookup.com). The status cannot be set, but it is related to your plan. You can change to wireless plan to change this.
-- Caller ID
+- Caller ID  
   Caller ID reduces unidentified calls by displaying a caller's information, even if they're not in your contact list. Here is a check [website](https://apeiron.io/cnam). This can be set by the phone plan provider, but not every provider allows set it or free to set it.
-- Do Not Call
+- Do Not Call  
   To reduce receiving telemarketing call, register [here](https://www.donotcall.gov).
-- Port in and out
+- Port in and out  
   It is easy to transfer phone number from one provider to another provide. Contact the previous provider to get account number and pin code, then give them to the next provider.
-- [Network Priority Level](https://www.reddit.com/r/NoContract/comments/tn4733/qci_level_explained_2022_march_lower_qci_is_better/)
+- [Network Priority Level](https://www.reddit.com/r/NoContract/comments/tn4733/qci_level_explained_2022_march_lower_qci_is_better/)  
    Lower QCI is better.
   - Verizon
     - **QCI 7 ➤** Verizon Frontline
@@ -40,7 +40,8 @@ A cellphone plan is a necessity for every person living in a modern city. How to
 
 #### Tello
 
-- Plan: 
+- Plan:
+
   - $5/100 mins/free SMS
   - $7/100 mins/free SMS/1G
   - etc
@@ -110,7 +111,7 @@ A cellphone plan is a necessity for every person living in a modern city. How to
 
 ## Philippines
 
-#### Globe Prepaid
+### Globe Prepaid
 
 - Fixed Cost: ₱0
 - Local Cost: ₱6.5-7.5 min, ₱1 SMS [rate](https://www.globe.com.ph/prepaid.html)

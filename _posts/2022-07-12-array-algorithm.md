@@ -12,8 +12,7 @@ Arrays are very basic data structures. It has two characteristics:
 
 ## Question: Search
 
-> Given an array of integers `nums` which is sorted in ascending order, and an integer `target`, write a function to search `target` in `nums`. If `target` exists, then return its index. Otherwise, return `-1`.
->
+> Given an array of integers `nums` which is sorted in ascending order, and an integer `target`, write a function to search `target` in `nums`. If `target` exists, then return its index. Otherwise, return `-1`.  
 > **Constraints:**
 >
 > - `1 <= nums.length <= 104`
@@ -51,14 +50,10 @@ Space complexity: O(1)
 
 ## Question: Remove Element
 
-> Given an integer array `nums` and an integer `val`, remove all occurrences of `val` in `nums` [**in-place**](https://en.wikipedia.org/wiki/In-place_algorithm). The relative order of the elements may be changed.
->
-> Since it is impossible to change the length of the array in some languages, you must instead have the result be placed in the **first part**of the array `nums`. More formally, if there are `k` elements after removing the duplicates, then the first `k` elements of `nums` should hold the final result. It does not matter what you leave beyond the first `k`elements.
->
-> Return `k` _after placing the final result in the first_ `k` _slots of_ `nums`.
->
-> Do **not** allocate extra space for another array. You must do this by **modifying the input array [in-place](https://en.wikipedia.org/wiki/In-place_algorithm)** with O(1) extra memory.
->
+> Given an integer array `nums` and an integer `val`, remove all occurrences of `val` in `nums` [**in-place**](https://en.wikipedia.org/wiki/In-place_algorithm). The relative order of the elements may be changed.  
+> Since it is impossible to change the length of the array in some languages, you must instead have the result be placed in the **first part**of the array `nums`. More formally, if there are `k` elements after removing the duplicates, then the first `k` elements of `nums` should hold the final result. It does not matter what you leave beyond the first `k`elements.  
+> Return `k` _after placing the final result in the first_ `k` _slots of_ `nums`.  
+> Do **not** allocate extra space for another array. You must do this by **modifying the input array [in-place](https://en.wikipedia.org/wiki/In-place_algorithm)** with O(1) extra memory.  
 > **Constraints:**
 >
 > - `0 <= nums.length <= 100`
@@ -84,7 +79,7 @@ public int removeElement(int[] nums, int val) {
 }
 ```
 
-Time complexity: O(n^2)
+Time complexity: O(n^2)  
 Space complexity: O(1)
 
 ### Solution 2 Hare & Tortoise Algorithm
@@ -102,5 +97,5 @@ public int removeElement(int[] nums, int val) {
 }
 ```
 
-Time complexity: O(n)
+Time complexity: O(n)  
 Space complexity: O(1)

@@ -5,8 +5,7 @@ date: 2022-07-28 14:45:05 -0700
 category: Technology-Tutorial
 ---
 
-Last time, I introduced Trojan-gfw. this time, we use another proxy tool, Shadowsocks-libev.
-It bypasses ISPs' network censorship by encrypting all traffic. However, Shadowsocks-libev is not a good tool to bypass Chinaese network censorship. This will result in the server‘s IP being blocked in mainland China.
+Last time, I introduced Trojan-gfw. this time, we use another proxy tool, Shadowsocks-libev. It bypasses ISPs' network censorship by encrypting all traffic. However, Shadowsocks-libev is not a good tool to bypass Chinaese network censorship. This will result in the server‘s IP being blocked in mainland China.
 
 - Install Shadowsocks
 
@@ -16,9 +15,8 @@ It bypasses ISPs' network censorship by encrypting all traffic. However, Shadows
 
 - Config Shadowsocks
 
-  The default config is located at /etc/shadowsocks-libev/config.json
-  Here is an example config.
-  A random password and port number is required.
+  The default config is located at /etc/shadowsocks-libev/config.json  
+  Here is an example config. A random password and port number is required.
 
   ```config
   {
@@ -50,7 +48,7 @@ It bypasses ISPs' network censorship by encrypting all traffic. However, Shadows
   The service will not start until enough entropy has been collected.
   ```
 
-  you need to install rng-tools and generate some random numbers.
+  You need to install rng-tools and generate some random numbers.
 
   ```shell
   apt install rng-tools

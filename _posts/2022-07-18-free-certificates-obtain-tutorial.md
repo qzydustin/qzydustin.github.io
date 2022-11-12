@@ -17,7 +17,7 @@ This article will introduce how to get free certificates. The certificates can h
 
 - Issue a cert by Cloudflare DNS API mode
 
-  - Create [Cloudflare API](https://dash.cloudflare.com/profile)
+  - Create [Cloudflare API](https://dash.cloudflare.com/profile)  
     The token needs access read access to Zone.Zone, and write access to Zone.DNS
 
   - Apply certificates

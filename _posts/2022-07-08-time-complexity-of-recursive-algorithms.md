@@ -40,10 +40,8 @@ int function(int x, int n){
 }
 ```
 
-The time complexity of the recursive algorithm = the number of recursions \* the number of operations per recursion
-
-In this case, the number of recusions = n; The number of operations per recursion = 1.
-
+The time complexity of the recursive algorithm = the number of recursions \* the number of operations per recursion.  
+In this case, the number of recusions = n; The number of operations per recursion = 1.  
 So the time complexity is still O(n).
 
 ## Solution 3
@@ -60,10 +58,8 @@ int function(int x, int n){
 }
 ```
 
-In this case, the number of recusions = logn \* logn; The number of operations per recursion = 1.
-
-So the time complexity is still O(n).
-
+In this case, the number of recusions = logn \* logn; The number of operations per recursion = 1.  
+So the time complexity is still O(n).  
 However, we have the double counting part.
 
 ## Solution 4
@@ -82,8 +78,6 @@ int function(int x, int n){
 }
 ```
 
-In this case, the number of recusions = logn; The number of operations per recursion = 1.
-
-Therefore, the time complexity is O(logn).
-
+In this case, the number of recusions = logn; The number of operations per recursion = 1.  
+Therefore, the time complexity is O(logn).  
 In conclusion, this is an entry level algorithm question, but a little difference in the recursive part of the algorithm will impact the time complexity a lot. In addition, the time complexity of the recursive algorithm is not always O(logn).

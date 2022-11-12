@@ -19,24 +19,18 @@ After installing the software and joining the network, the device will get a Zer
 
 If you need to access the another network(even global network) through one device(such as raspberry pi or nas) in that network. These is also a list of things you should to do.
 
-- Add some routes on my.ZeroTier.com **Managed Routes**.
-
+- Add some routes on my.ZeroTier.com **Managed Routes**.  
   **Destination** is the network you want to visit.
 
-  - The common home network is 192.168.1.0/23.
-
+  - The common home network is 192.168.1.0/23.  
     Configure the destination route as slightly **larger** than the actual physical subnet, here /23 instead of /24 (a smaller number is a bigger subnet in this notation) This makes devices that are on both the physical and the ZeroTier network prefer the physical connection.
 
-  - The whole network is 0.0.0.0/0.
-
-    To forward global traffic over ZeroTier you need to make sure that “Allow Global” is ticked in your ZeroTier client. This will let your traffic flow!
-
+  - The whole network is 0.0.0.0/0.  
+    To forward global traffic over ZeroTier you need to make sure that “Allow Global” is ticked in your ZeroTier client. This will let your traffic flow!  
     **(Via)** is the device IP you want to visit the network through.
 
-- Turn on IP forward on the device installed ZeroTier.
-
-  It is hard to use IP forword in Windows system, so please use Linux system.
-  
+- Turn on IP forward on the device installed ZeroTier.  
+  It is hard to use IP forword in Windows system, so please use Linux system.  
   In Linux, only need one command. `sudo sysctl -w net.ipv4.ip_forward=1`.
 
 - Add iptable rules on the device installed ZeroTier. To do this, run the following commands:
@@ -47,10 +41,8 @@ If you need to access the another network(even global network) through one devic
   sudo iptables -A FORWARD -i "ZT_INTERFACE" -o "eth0" -j ACCEPT
   ```
 
-  Replace ZT_INTERFACE with the local ZeroTier interface name.
-
-  Replace eth0 with the real thernet interface.
-
+  Replace ZT_INTERFACE with the local ZeroTier interface name.  
+  Replace eth0 with the real thernet interface.  
   You can get these from ifconfig.
 
 - Save iptables rules for next boot. To do this, run the following commands:
