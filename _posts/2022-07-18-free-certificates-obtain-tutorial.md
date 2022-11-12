@@ -14,17 +14,28 @@ This article will introduce how to get free certificates. The certificates can h
   . .bashrc
   acme.sh --upgrade --auto-upgrade
   ```
+- Issue a cert by Cloudflare DNS API mode
 
-- Apply for certificates
+  - Create [Cloudflare API](https://dash.cloudflare.com/profile)
+    The token needs access read access to Zone.Zone, and write access to Zone.DNS
 
-  ```shell
-  apt install socat
-  acme.sh --issue  -d domain.com --keylength ec-256 --standalone
-  ```
+  - Apply certificates
 
-- Install certificates to a folder
+    ```shell
+    export CF_Token="XXXXX"
+    export CF_Account_ID="XXXXX"
+    export CF_Zone_ID="XXXXX"
 
-  ```shell
-  acme.sh --installcert -d domain.com --ecc --fullchain-file /location/certfile.pem --key-file /location/keyfile.key
-  chmod +r /location/keyfile.key
-  ```
+    acme.sh --issue --dns dns_cf -d example.com --keylength ec-256
+    ```
+
+  - Install certificates to a folder
+
+    ```shell
+    acme.sh --installcert -d domain.com --ecc \
+    	--fullchain-file /location/certfile.crt \
+    	--key-file /location/keyfile.key\
+    	--reloadcmd "systemctl restart example"
+
+    chmod +r /location/keyfile.key
+    ```
