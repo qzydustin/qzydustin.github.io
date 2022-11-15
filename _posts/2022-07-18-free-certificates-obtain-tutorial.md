@@ -27,7 +27,7 @@ This article will introduce how to get free certificates. The certificates can h
     export CF_Account_ID="XXXXX"
     export CF_Zone_ID="XXXXX"
 
-    acme.sh --issue --dns dns_cf -d example.com --keylength ec-256
+    acme.sh --issue --dns dns_cf -d example.com -d example.com --keylength ec-256
     ```
 
   - Install certificates to a folder
