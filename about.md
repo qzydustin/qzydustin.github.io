@@ -4,9 +4,9 @@ title: About
 permalink: /about/
 ---
 
-I am Zhenyu Qi, a Computer Science master student.
+I am Zhenyu Qi, a Computer Science master's student.
 
-This is my personal blog powered by github page server, Jekyll blog generator and Minima theme.
+This is my personal blog powered by a GitHub page server, Jekyll blog generator, and Minima theme.
 
 Hope you can get some useful information from here.
 
