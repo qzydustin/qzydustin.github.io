@@ -1,11 +1,11 @@
 ---
 layout: post
-title: Nginx Setup Tutorial
+title: Tutorial for Nginx Setup
 date: 2022-11-12 01:44:32-0700
-category: Technology-Tutorial
+category: Technology
 ---
 
-Nginx is a popular web server. It is widely used in Internet projects because of its low memory consumption, extremely fast startup and high concurrency capability.
+Nginx is a popular web server. It is widely used in Internet projects because of its low memory consumption, fast startup, and high concurrency capability.
 
 - Install
 
@@ -20,10 +20,10 @@ Nginx is a popular web server. It is widely used in Internet projects because of
   nginx -s reopen #reopening the log files
   ```
 
-- Virtualhosts config
+- Virtual hosts config
 
   In the main nginx configuration, `/etc/nginx/nginx.conf`, there is a line `include /etc/nginx/sites-enabled/*.conf;`  
-  To activate virtualhosts in `/etc/nginx/sites-available`, run following command:
+  To activate virtual hosts in `/etc/nginx/sites-available`, run the following command:
 
   ```shell
   ln -s /etc/nginx/sites-available/example.conf /etc/nginx/sites-enabled/

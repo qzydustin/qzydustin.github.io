@@ -1,11 +1,11 @@
 ---
 layout: post
-title: Free Certificates Obtain Tutorial
+title: Tutorial for ACME.sh Free Certificates Obtain
 date: 2022-07-18 17:12:32-0700
-category: Technology-Tutorial
+category: Technology
 ---
 
-This article will introduce how to get free certificates. The certificates can help you build https website or setup trojan proxy. I use the acme.sh tool to get certificates easily.
+This article will introduce how to get free certificates. The certificates can help you build an HTTPS website or set up a trojan proxy. I use the acme.sh tool to get certificates quickly.
 
 - Install acme.sh and set auto upgrade
 
@@ -37,6 +37,6 @@ This article will introduce how to get free certificates. The certificates can h
      --fullchain-file /location/certfile.crt \
      --key-file /location/keyfile.key\
      --reloadcmd "systemctl restart example"
-
+    
     chmod +r /location/keyfile.key
     ```

@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Trojan Proxy Setup Tutorial
+title: Tutorial for Trojan Proxy Setup
 date: 2022-07-18 16:58:55 -0700
-category: Technology-Tutorial
+category: Technology
 ---
 
 My goal is to build a proxy that bypasses network censorship. This time I used trojan-gfw. It works by disguising all traffic as https traffic. This makes it impossible for ISPs to identify the traffic.
@@ -16,7 +16,7 @@ My goal is to build a proxy that bypasses network censorship. This time I used t
 - Config Trojan
 
   The default config is located at /etc/trojan/config  
-  Here is an example config. A random password, cert and key file are required.  
+  Here is an example config. A random password, cert, and key file are required.  
   Free cert and key file can be obtained by acme.sh.
 
   ```config
@@ -80,4 +80,4 @@ My goal is to build a proxy that bypasses network censorship. This time I used t
   systemctl status trojan
   ```
 
-  Then, I can use Shadowrocket app to connect to the Trojan server.
+  Then, I can use the Shadowrocket app to connect to the Trojan server.

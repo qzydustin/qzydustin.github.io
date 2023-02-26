@@ -1,11 +1,11 @@
 ---
 layout: post
-title: Shadowsocks Proxy Setup Tutorial
+title: Tutorial for Shadowsocks Proxy Setup
 date: 2022-07-28 14:45:05 -0700
-category: Technology-Tutorial
+category: Technology
 ---
 
-Last time, I introduced Trojan-gfw. this time, we use another proxy tool, Shadowsocks-libev. It bypasses ISPs' network censorship by encrypting all traffic. However, Shadowsocks-libev is not a good tool to bypass Chinaese network censorship. This will result in the server‘s IP being blocked in mainland China.
+Last time, I introduced Trojan-gfw. this time, we use another proxy tool, Shadowsocks-libev. It bypasses ISPs' network censorship by encrypting all traffic. However, Shadowsocks-libev is not a good tool to bypass Chinese network censorship. This will result in the server‘s IP being blocked in mainland China.
 
 - Install Shadowsocks
 
@@ -16,7 +16,7 @@ Last time, I introduced Trojan-gfw. this time, we use another proxy tool, Shadow
 - Config Shadowsocks
 
   The default config is located at /etc/shadowsocks-libev/config.json  
-  Here is an example config. A random password and port number is required.
+  Here is an example config. A random password and port number are required.
 
   ```config
   {

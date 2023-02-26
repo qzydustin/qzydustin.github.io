@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Array Algorithm
+title: Algorithm of Array
 date: 2022-07-12 12:25:04 -0700
-category: Algorithm
+category: Academic
 ---
 
-Arrays are very basic data structures. It has two characteristics:
+Arrays are fundamental data structures. It has two characteristics:
 
 - The subscript of the array starts from 0.
-- Arrays are allocated continuously in memory.
+- Arrays are allocated contiguously in memory.
 
 ## Question: Search
 
@@ -20,7 +20,7 @@ Arrays are very basic data structures. It has two characteristics:
 > - All the integers in `nums` are **unique**.
 > - `nums` is sorted in ascending order.
 
-key words: sorted, unique
+Keywords: sorted, unique
 
 ### Solution: Binary Search
 
@@ -48,10 +48,10 @@ public int search(int[] nums, int target) {
 Time complexity: O(logn)
 Space complexity: O(1)
 
-## Question: Remove Element
+## Question: Remove the Element
 
 > Given an integer array `nums` and an integer `val`, remove all occurrences of `val` in `nums` [**in-place**](https://en.wikipedia.org/wiki/In-place_algorithm). The relative order of the elements may be changed.  
-> Since it is impossible to change the length of the array in some languages, you must instead have the result be placed in the **first part**of the array `nums`. More formally, if there are `k` elements after removing the duplicates, then the first `k` elements of `nums` should hold the final result. It does not matter what you leave beyond the first `k`elements.  
+> Since it is impossible to change the length of the array in some languages, you must instead have the result placed in the **first part** of the array `nums`. More formally, if there are `k` elements after removing the duplicates, then the first `k` elements of `nums` should hold the final result. It does not matter what you leave beyond the first `k` elements.  
 > Return `k` _after placing the final result in the first_ `k` _slots of_ `nums`.  
 > Do **not** allocate extra space for another array. You must do this by **modifying the input array [in-place](https://en.wikipedia.org/wiki/In-place_algorithm)** with O(1) extra memory.  
 > **Constraints:**

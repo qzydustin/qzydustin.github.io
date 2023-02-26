@@ -1,17 +1,17 @@
 ---
 layout: post
-title: Time Complexity of Recursive Algorithms
+title: Time Complexity of Recursive Algorithm
 date: 2022-07-08 22:19:45 -0700
-category: Algorithm
+category: Academic
 ---
 
-Let us to use an easy example question to explain the time complexity of rescusive algorithms.
+Let us use an easy example question to explain the time complexity of recursive algorithms.
 
 ## Question: Calculate the nth power of x
 
 ## Solution 1
 
-The most straightforward way to solve this is use a loop.
+The most straightforward way to solve this is to use a loop.
 
 ```java
 int function(int x, int n){
@@ -41,7 +41,7 @@ int function(int x, int n){
 ```
 
 The time complexity of the recursive algorithm = the number of recursions \* the number of operations per recursion.  
-In this case, the number of recusions = n; The number of operations per recursion = 1.  
+In this case, the number of recursions = n; The number of operations per recursion = 1.  
 So the time complexity is still O(n).
 
 ## Solution 3
@@ -58,7 +58,7 @@ int function(int x, int n){
 }
 ```
 
-In this case, the number of recusions = logn \* logn; The number of operations per recursion = 1.  
+In this case, the number of recursions = logn \* logn; The number of operations per recursion = 1.  
 So the time complexity is still O(n).  
 However, we have the double counting part.
 
@@ -78,6 +78,6 @@ int function(int x, int n){
 }
 ```
 
-In this case, the number of recusions = logn; The number of operations per recursion = 1.  
+In this case, the number of recursions = logn; The number of operations per recursion = 1.  
 Therefore, the time complexity is O(logn).  
-In conclusion, this is an entry level algorithm question, but a little difference in the recursive part of the algorithm will impact the time complexity a lot. In addition, the time complexity of the recursive algorithm is not always O(logn).
+In conclusion, this is an entry-level algorithm question, but a little difference in the recursive part of the algorithm will impact the time complexity. In addition, the time complexity of the recursive algorithm is not always O(logn).

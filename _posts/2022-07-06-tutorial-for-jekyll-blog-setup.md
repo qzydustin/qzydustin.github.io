@@ -1,11 +1,11 @@
 ---
 layout: post
-title: Jekyll Blog Setup Tutorial
+title: Tutorial for Jekyll Blog Setup
 date: 2022-07-06 16:29:28 -0700
-category: Technology-Tutorial
+category: Technology
 ---
 
-My environment is Macbook Air M1 with latest macOS.
+My environment is Macbook Air M1 with the latest macOS.
 
 1. Install brew
 
@@ -13,14 +13,14 @@ My environment is Macbook Air M1 with latest macOS.
    /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
    ```
 
-2. Install chruby and the latest Ruby
+2. Install “chruby” and the latest “Ruby”
 
    ```shell
    brew install chruby ruby-install
    ruby-install ruby
    ```
 
-3. Add latest Ruby to environment
+3. Add the latest Ruby to the environment
 
    ```shell
    echo "source $(brew --prefix)/opt/chruby/share/chruby/chruby.sh" >> ~/.zshrc
@@ -28,9 +28,9 @@ My environment is Macbook Air M1 with latest macOS.
    echo "chruby ruby-3.1.2" >> ~/.zshrc
    ```
 
-   There is a hide problem. "ruby-3.1.2" should match the ruby verison you installed in step 2.
+   A hidden problem exists. "ruby-3.1.2" should match the ruby version you installed in step 2.
 
-   - Show the ruby version which installed in the system.
+   - Show the ruby version installed in the system.
 
    ```shell
    chruby
@@ -55,7 +55,7 @@ My environment is Macbook Air M1 with latest macOS.
    bundle add webrick
    ```
 
-   In Ruby 3.0, the server will not start normally without webrick.
+   In Ruby 3.0, the server will not start without “webrick”.
 
 6. Start server
 

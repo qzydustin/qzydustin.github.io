@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Common Linux Commands Collection
+title: Collection for Common Linux Command
 date: 2022-07-28 15:02:35 -0700
-category: Technology-Tutorial
+category: Technology
 ---
 
 ## systemd

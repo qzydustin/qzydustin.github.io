@@ -1,11 +1,11 @@
 ---
 layout: post
-title: Docker Setup Tutorial
+title: Tutorial for Docker Setup
 date: 2022-07-07 20:36:36 -0700
-category: Technology-Tutorial
+category: Technology
 ---
 
-Docker is a set of platform as a service (PaaS) products that use OS-level virtualization to deliver software in packages called containers
+Docker is a set of platform-as-a-service (PaaS) products that use OS-level virtualization to deliver software in packages called containers
 
 - install docker
 
