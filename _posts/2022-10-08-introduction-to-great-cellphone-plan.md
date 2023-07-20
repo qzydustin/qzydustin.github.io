@@ -111,13 +111,15 @@ A cellphone plan is necessary for everyone living in a modern city. How to pick 
 
 ## Philippines
 
-### Globe Prepaid
+### ~~Globe Prepaid~~
 
-- Fixed Cost: ₱0
-- Local Cost: ₱6.5-7.5 min, 1 SMS [rate](https://www.globe.com.ph/prepaid.html)
-- Worldwide: [rate](https://www.globe.com.ph/international.html)
-- WiFi-Calling: Supported
-- Roam: Supported, [rate](https://www.globe.com.ph/international/roaming.html)(receive SMS free)
-- Special:
-  - Refill to extend the number and balance one year.
-  - Send an SMS to a random local number to activate (about ₱21, including VAT).
+​	07/19/2023 Update: It is no longer recommended due to the Philippine government's requirement for real-name authentication.
+
+- ~~Fixed Cost: ₱0~~
+- ~~Local Cost: ₱6.5-7.5 min, 1 SMS [rate](https://www.globe.com.ph/prepaid.html)~~
+- ~~Worldwide: [rate](https://www.globe.com.ph/international.html)~~
+- ~~WiFi-Calling: Supported~~
+- ~~Roam: Supported, [rate](https://www.globe.com.ph/international/roaming.html)(receive SMS free)~~
+- ~~Special:~~
+  - ~~Refill to extend the number and balance one year.~~
+  - ~~Send an SMS to a random local number to activate (about ₱21, including VAT).~~
