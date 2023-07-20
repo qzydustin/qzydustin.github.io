@@ -11,6 +11,15 @@ Compared to Microsoft Windows USB Installer, macOS USB Installer is such a big p
 
 This is the first problem we will meet. I used to download the official installer from the original source. Apple's website provides direct links to macOS(10.7-10.12) Installers and AppStore links to macOS(10.13-latest).
 
+Here are some macOS version notes:
+
+- Mac OS X 10.7 Lion: the last "Mac OS X" version
+  It is an excellent version to test old Macs with Intel x64 CPU.
+- OS X 10.11 El Capitan: the last "OS X" version
+  It is an excellent version for old Macs' daily use.
+- macOS 10.15 Catalina: the last "macOS 10" version
+  It is an excellent version for Intel x64 Macs' daily use.
+
 ### macOS(10.7-10.12)
 
 After downloading the macOS through direct links, I still cannot use the pkg in the dmg file to build a macOS Installer App because "the device cannot be supported."
