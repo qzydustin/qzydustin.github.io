@@ -1,36 +1,37 @@
 #!/bin/bash
 
-echo -n "Enter a title for your post and press [ENTER]: "
-read INPUT
+read -p "Enter a title for your post and press [ENTER]: " input
 
-if [ -z "$INPUT" ]; then
-    echo "Post title is required"
+if [ -z "$input" ]; then
+    echo "Post title is required."
     exit 1
 fi
 
-# Remove special characters and replace spaces with hyphens
-CLEAN_TITLE=$(echo "$INPUT" | tr -d '[:punct:]' | tr ' ' '-')
-LOWER=$(echo "$CLEAN_TITLE" | tr '[:upper:]' '[:lower:]')
+# Remove special characters, then replace spaces with hyphens and squeeze repeated hyphens into one
+clean_title=$(echo "$input" | sed 's/[^a-zA-Z0-9 ]//g' | sed 's/  */-/g')
 
-echo -n "Enter a category for your post and press [ENTER]: "
-read CATEGORY
+# Convert to lowercase
+lower_title=$(echo "$clean_title" | tr '[:upper:]' '[:lower:]')
 
-if [ -z "$CATEGORY" ]; then
-    echo "Post category is required"
+read -p "Enter a category for your post and press [ENTER]: " category
+
+if [ -z "$category" ]; then
+    echo "Post category is required."
     exit 1
 fi
 
-DATE=$(date +"%Y-%m-%d")
-TIME=$(date +"%T")
-FILENAME=$(printf "%s-%s.md" "$DATE" "$LOWER")
+datetime=$(date +"%Y-%m-%d %T")
+filename="${datetime:0:10}-${lower_title}.md"
 
-touch "$FILENAME"
+touch "$filename" || { echo "Failed to create file: $filename"; exit 1; }
 
-cat > "$FILENAME" << EOL
+cat > "$filename" << EOL
 ---
 layout: post
-title:  $INPUT
-date:   $DATE $TIME
-category: $CATEGORY
+title:  $input
+date:   $datetime
+category: $category
 ---
 EOL
+
+echo "File created: $filename"
