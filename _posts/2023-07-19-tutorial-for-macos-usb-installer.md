@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  Tutorial for macOS USB Installer
 date:   2023-07-19 17:06:26
 category: Technology

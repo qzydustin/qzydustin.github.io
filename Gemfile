@@ -15,10 +15,11 @@ gem "jekyll", "~> 4.3.3"
 # gem "github-pages", group: :jekyll_plugins
 # If you have any plugins, put them here!
 group :jekyll_plugins do
-  gem "jekyll-feed", "~> 0.12"
-  gem 'jekyll-sitemap'
-  gem 'jekyll-seo-tag'
+  gem "jekyll-feed"
+  gem "jekyll-sitemap"
+  gem "jekyll-paginate"
   gem "jekyll-remote-theme"
+  gem "jekyll-include-cache"
 end
 
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem
@@ -37,3 +38,7 @@ gem "http_parser.rb", "~> 0.6.0", :platforms => [:jruby]
 
 # HTTP server, needed for Ruby version 3.0.0 or higher
 gem "webrick"
+
+# Deprecation Warning for sass
+# https://github.com/mmistakes/minimal-mistakes/issues/4054#issuecomment-1371015867
+gem 'jekyll-sass-converter', '~> 2.2'

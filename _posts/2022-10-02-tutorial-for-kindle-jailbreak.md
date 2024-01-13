@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Tutorial for Kindle Jailbreak
 date: 2022-10-02 12:17:25 -0700
 category: Technology

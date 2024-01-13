@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Tutorial for Xiaomi Router Nano Bootloader Flash
 date: 2022-09-28 14:43:27 -0700
 category: Technology

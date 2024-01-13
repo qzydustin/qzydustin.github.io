@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Introduction to Great Cellphone Plan
 date: 2022-10-08 16:20:35 -0700
 category: Life

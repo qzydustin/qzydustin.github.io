@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Algorithm of Array
 date: 2022-07-12 12:25:04 -0700
 category: Academic

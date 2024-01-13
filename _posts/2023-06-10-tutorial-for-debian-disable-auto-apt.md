@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  Tutorial for Debian Disable Auto Apt
 date:   2023-06-10 17:30:54
 category: Technology

@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Tutorial for Trojan Proxy Setup
 date: 2022-07-18 16:58:55 -0700
 category: Technology

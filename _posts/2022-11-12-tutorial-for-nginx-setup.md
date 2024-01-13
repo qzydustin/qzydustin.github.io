@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Tutorial for Nginx Setup
 date: 2022-11-12 01:44:32-0700
 category: Technology

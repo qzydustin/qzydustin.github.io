@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Tutorial for Padavan Router Firmware Build
 date: 2022-10-05 10:03:05 -0700
 category: Technology

@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Tutorial for ZeroTier VPN Setup
 date: 2022-09-26 15:28:32 -0700
 category: Technology

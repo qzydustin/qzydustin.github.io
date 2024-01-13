@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Tutorial for Jekyll Blog Setup
 date: 2022-07-06 16:29:28 -0700
 category: Technology

@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Tutorial for Shadowsocks Proxy Setup
 date: 2022-07-28 14:45:05 -0700
 category: Technology

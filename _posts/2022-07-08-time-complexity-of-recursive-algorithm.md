@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Time Complexity of Recursive Algorithm
 date: 2022-07-08 22:19:45 -0700
 category: Academic

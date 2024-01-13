@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Tutorial for ACME.sh Free Certificates Obtain
 date: 2022-07-18 17:12:32-0700
 category: Technology

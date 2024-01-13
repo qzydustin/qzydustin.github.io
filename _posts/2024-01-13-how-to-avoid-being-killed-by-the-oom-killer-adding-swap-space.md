@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  How to Avoid Being Killed by the OOM Killer - Adding Swap Space
 date:   2024-01-13 03:27:26
 category: Technology

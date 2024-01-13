@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Tutorial for Docker Setup
 date: 2022-07-07 20:36:36 -0700
 category: Technology
