@@ -4,8 +4,6 @@ date:   2024-01-13 03:27:26
 category: Technology
 ---
 
-## Understanding OOM Killer
-
 In Linux systems, memory management is crucial for maintaining system stability and performance. One component at the heart of this process is the "Out-Of-Memory (OOM) Killer." This process steps in when your system is critically low on memory. It selectively terminates one or more processes to free up memory and prevent a system crash. However, the intervention of the OOM Killer can be disruptive, as it might terminate essential or high-priority processes.
 
 ## The Role of Swap Space

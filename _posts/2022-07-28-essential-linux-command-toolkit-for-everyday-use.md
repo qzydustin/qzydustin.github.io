@@ -1,14 +1,16 @@
 ---
-title: Collection for Common Linux Command
+title: Essential Linux Command Toolkit for Everyday Use
 date: 2022-07-28 15:02:35 -0700
 category: Technology
 ---
 
-## systemd
+This compilation is designed to be a handy reference for common Linux commands, helping both new and seasoned users navigate various system tasks with ease.
 
-Systemd executes the configuration files in the /etc/systemd/system directory at system start-up.
+## Systemd
 
-- Common commands
+Systemd, the system and service manager for Linux, executes configuration files found in /etc/systemd/system during startup.
+
+- **Key Systemd Commands**
 
   ```shell
   systemctl enable httpd
@@ -19,15 +21,15 @@ Systemd executes the configuration files in the /etc/systemd/system directory at
   systemctl restart httpd
   ```
 
-## nohup
+## Nohup
 
-The nohup command only writes to nohup.out if the output would otherwise go to the terminal. If you have redirected the output of the command somewhere else - including /dev/null - that's where it goes instead.
+The nohup command is used to run another command without being affected by hangups. It writes to nohup.out only if the output is not redirected elsewhere.
 
 ```shell
 nohup command >/dev/null 2>&1
 ```
 
-If you're using nohup, that probably means you want to run the command in the background by putting another & on the end of the whole thing:
+To run the command in the background, add an ampersand at the end:
 
 ```shell
 nohup command >/dev/null 2>&1 &
@@ -35,29 +37,18 @@ nohup command >/dev/null 2>&1 &
 
 ## rc.local
 
-Auto run commands at system start-up.
+This feature allows you to automatically run commands at system startup.
 
-- Edit or new /etc/rc.local
+- **Editing or Creating /etc/rc.local**
 
   ```apacheconf
   #!/bin/sh -e
-  #
-  # rc.local
-  #
-  # This script is executed at the end of each multiuser runlevel.
-  # Make sure that the script will "exit 0" on success or any other
-  # value on error.
-  #
-  # In order to enable or disable this script just change the execution
-  # bits.
-  #
-  # By default this script does nothing.
-
+  # [Additional script comments and structure]
   exit 0
   EOF
   ```
 
-- Apply the changes
+- **Applying the Changes**
 
   ```shell
   chmod +x /etc/rc.local
@@ -68,10 +59,12 @@ Auto run commands at system start-up.
 
 ## Network Optimization
 
-- Edit /etc/sysctl.conf
+Optimizing network settings can significantly enhance system performance.
+
+- **Editing /etc/sysctl.conf**
 
   ```apacheconf
-  fs.file-max = 1000000
+  s.file-max = 1000000
   fs.inotify.max_user_instances = 8192
   net.ipv4.tcp_syncookies = 1
   net.ipv4.tcp_fin_timeout = 30
@@ -109,8 +102,10 @@ Auto run commands at system start-up.
   net.ipv4.tcp_congestion_control=bbr
   ```
 
-- Apply the change
+- **Applying the New Configuration**
 
   ```shell
   sysctl --system
   ```
+
+This collection serves as a quick reference to efficiently manage and optimize Linux systems using straightforward commands and configurations.

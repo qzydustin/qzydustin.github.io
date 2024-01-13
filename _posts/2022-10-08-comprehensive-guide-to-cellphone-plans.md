@@ -1,5 +1,5 @@
 ---
-title: Introduction to Great Cellphone Plan
+title: Comprehensive Guide to Cellphone Plans
 date: 2022-10-08 16:20:35 -0700
 category: Life
 ---
@@ -112,7 +112,7 @@ A cellphone plan is necessary for everyone living in a modern city. How to pick 
 
 ### ~~Globe Prepaid~~
 
-​	07/19/2023 Update: It is no longer recommended due to the Philippine government's requirement for real-name authentication.
+​07/19/2023 Update: It is no longer recommended due to the Philippine government's requirement for real-name authentication.
 
 - ~~Fixed Cost: ₱0~~
 - ~~Local Cost: ₱6.5-7.5 min, 1 SMS [rate](https://www.globe.com.ph/prepaid.html)~~
