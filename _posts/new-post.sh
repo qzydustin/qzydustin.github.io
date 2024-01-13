@@ -13,6 +13,8 @@ clean_title=$(echo "$input" | sed 's/[^a-zA-Z0-9 ]//g' | sed 's/  */-/g')
 # Convert to lowercase
 lower_title=$(echo "$clean_title" | tr '[:upper:]' '[:lower:]')
 
+echo "$lower_title"
+
 read -p "Enter a category for your post and press [ENTER]: " category
 
 if [ -z "$category" ]; then
