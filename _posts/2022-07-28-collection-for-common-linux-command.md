@@ -34,18 +34,6 @@ If you're using nohup, that probably means you want to run the command in the ba
 nohup command >/dev/null 2>&1 &
 ```
 
-## swap
-
-Add swap to the system at system start-up.
-
-```shell
-free -m
-dd if=/dev/zero of=/var/swap bs=1k count=1024k
-mkswap /var/swap
-swapon /var/swap
-echo '/var/swap   swap   swap   default 0 0' >> /etc/fstab
-```
-
 ## rc.local
 
 Auto run commands at system start-up.
