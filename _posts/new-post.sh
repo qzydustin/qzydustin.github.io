@@ -20,7 +20,7 @@ if [ -z "$category" ]; then
     exit 1
 fi
 
-datetime=$(date +"%Y-%m-%d %T")
+datetime=$(date -u +"%Y-%m-%d %T")
 filename="${datetime:0:10}-${lower_title}.md"
 
 touch "$filename" || { echo "Failed to create file: $filename"; exit 1; }
