@@ -108,7 +108,7 @@ analytics:
 author:
   name             : *name # *name is a YAML reference pointing to the &anchor earlier
   avatar           : "/assets/images/avatar.jpg"
-  bio              : "I'm a graduate student of Computer Science at the University of Arizona."
+  bio              : "I'm a graduate student of Software Engineering at the University of Arizona."
   location         : "Tucson, AZ"
   email            : 
   links:
