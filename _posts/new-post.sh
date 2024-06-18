@@ -29,7 +29,6 @@ touch "$filename" || { echo "Failed to create file: $filename"; exit 1; }
 
 cat > "$filename" << EOL
 ---
-layout: post
 title:  $input
 date:   $datetime
 category: $category
