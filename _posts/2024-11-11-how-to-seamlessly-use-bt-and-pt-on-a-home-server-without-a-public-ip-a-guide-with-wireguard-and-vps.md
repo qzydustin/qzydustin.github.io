@@ -1,5 +1,5 @@
 ---
-title:  How to Seamlessly Use BT/PT on a Home Server Without a Public IP: A Guide with WireGuard and VPS
+title:  How to Seamlessly Use BT and PT on a Home Server Without a Public IP - A Guide with WireGuard and VPS
 date:   2024-11-11 19:52:11
 category: Technology
 ---
